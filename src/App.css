@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.menu-header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(0deg, #464341 0%, #010101 100%);
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+  position: relative;
+  top: 100px;
+  background: bisque;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1686px;
+  height: 100%;
+  background: aqua;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 305.27px;
+  top: 37px;
+  color: #FFFFFF;
+}
+
+.mobili-number {
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  left: 1431px;
+  top: 38px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.title-block {
+  position: absolute;
+  width: 1253px;
+  height: 60px;
+  left: 260px;
+  top: 301px;
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #141414;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-julia {
+  position: absolute;
+  width: 860px;
+  height: 480px;
+  left: -3px;
+  top: 484px;
+  background: #C4C4C4;
 }
+
+.title-text {
+  position: absolute;
+  width: 600px;
+  height: 160px;
+  left: 985px;
+  top: 556px;
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  /* or 53px */
+  display: flex;
+  align-items: center;
+  color: #141414;
+}
+
+.text {
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  left: 985px;
+  top: 741px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  display: flex;
+  align-items: center;
+  color: #141414;
+}
+
+/*# sourceMappingURL=App.css.map */
