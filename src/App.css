@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./style/fonts/Roboto-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Orchidea Pro";
+  src: url("./style/fonts/OrchideaProMedium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("./style/fonts/Manrope-Medium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
 .menu-header {
   position: fixed;
   height: 100px;
@@ -32,25 +50,12 @@
 
 .mobile-number {
   position: absolute;
-  width: 228px;
-  height: 32px;
   left: 1431px;
   top: 38px;
   font-family: "Manrope";
   font-size: 24px;
   line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #FFFFFF;
-}
-
-.blockScroll {
-  margin-top: 160px;
-}
-
-.block2 {
-  margin-top: 160px;
 }
 
 .footer {
@@ -69,5 +74,3 @@
   text-align: center;
   color: white;
 }
-
-/*# sourceMappingURL=App.css.map */

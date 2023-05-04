@@ -1,0 +1,7 @@
+@import '../../style/vars';
+@import '../../style/fonts';
+
+.title {
+    @include h1;
+    font-family: "Orchidea Pro";
+  }

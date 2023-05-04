@@ -1,4 +1,4 @@
-import imgScroll from '../../images'
+import imgScroll from '../../data/images'
 
 function HorizontalScroll() {
     return (

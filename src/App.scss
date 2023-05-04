@@ -1,24 +1,8 @@
-// подключение шрифтов
-// @font-face {
-//   font-family: 'Roboto';
-//   src: url('../style/fonts/Roboto-Regular.woff') format('woff');
-//   font-weight: bold;
-//   font-style: normal;
-// }
+// @import './_vars.scss'; 
+// @import './data/';
+@import './style/fonts';
 
-// @font-face {
-//   font-family: 'Manrope';
-//   src: url('../style/fonts/Manrope-Medium.woff') format('woff');
-//   font-weight: bold;
-//   font-style: normal;
-// }
 
-// @font-face {
-//   font-family: 'Orchidea Pro';
-//   src: url('../style/fonts/OrchideaProMedium.woff') format('woff');
-//   font-weight: bold;
-//   font-style: normal;
-// }
 
 .menu-header {
   position: fixed;
@@ -54,24 +38,18 @@
 
 .mobile-number {
   position: absolute;
-  width: 228px;
-  height: 32px;
   left: 1431px;
   top: 38px;
   font-family: 'Manrope';
   font-size: 24px;
-  line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 33px; // перевести в проценты
   color: #FFFFFF;
 }
-.blockScroll {
-  margin-top: 160px;
-}
-.block2 {
-  margin-top: 160px;
-}
+
+
+
+
+
 // шаблонный селектор
 // %block-title {
 //   position: absolute;

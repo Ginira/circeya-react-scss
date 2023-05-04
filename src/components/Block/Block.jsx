@@ -1,7 +1,9 @@
+import './Block.module.css';
+
 function Block({text, img1, img2, img3, img4}) {
     return (
         <div className="cont"> 
-            <h1 className="title1">
+            <h1 className="title">
               {text.h1}
             </h1>
               <img className="img1" src={img1 || img3} alt="imgLH"/>

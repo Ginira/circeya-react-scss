@@ -1,9 +1,9 @@
 import './App.css';
-import logoCirceya from '../../pictures/logoCirceya.svg';
-import Block from '../Block/Block';
-import HorizontalScroll from '../HorizontalScroll/HorizontalScroll'
-import img from '../../images'
-import {text} from '../../text';
+import logoCirceya from './images/logoCirceya.svg';
+import Block from './components/Block/Block';
+import HorizontalScroll from './components/HorizontalScroll/HorizontalScroll'
+import img from './data/images'
+import {text} from './data/text';
 
 function App() {
   return (

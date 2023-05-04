@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./style/fonts/Roboto-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Orchidea Pro";
+  src: url("./style/fonts/OrchideaProMedium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("./style/fonts/Manrope-Medium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.title {
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Orchidea Pro";
+}

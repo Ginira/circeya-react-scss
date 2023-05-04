@@ -1,2 +1,2 @@
-## Test task Ract + SCSS
+## Test task React + SCSS
 

@@ -1,0 +1,62 @@
+// @mixin laptop() {
+//     @media screen and (min-width: 1024px) and (max-width: 1370px) and (orientation: landscape) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet-l() {
+//     @media screen and (min-width: 541px) and (max-width: 1023px) and (orientation: landscape) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet-p() {
+//     @media screen and (min-width: 541px) and (max-width: 1090px) and (orientation: portrait) {
+//         @content;
+//     }
+// }
+
+// @mixin mobile() {
+//     @media screen and (min-width: 220px) and (max-width: 540px) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet() {
+//     @media screen and (min-width: 541px) and (max-width: 1023px) {
+//         @content;
+//     }
+// }
+
+
+@mixin h1 {
+    // font-size: wv-1600(64px);
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+
+
+    // @include laptop() {
+    //     font-size: wv-1200(48px);
+    // }
+
+    // @include tablet() {
+    //     font-size: wv-1600(64px);
+    // }
+
+    // @include tablet-l() {
+    //     font-size: wv-768(45px);
+    // }
+
+    // @include tablet-p() {
+    //     font-size: wv-768(45px);
+    // }
+
+    // @include mobile() {
+    //     font-size: wv-375(30px);
+    // }
+}
+//VARS
+
+
