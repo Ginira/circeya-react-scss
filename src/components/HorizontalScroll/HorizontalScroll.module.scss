@@ -1,0 +1,14 @@
+@import '../../style/vars';
+
+.container {
+  margin-top: 163px;
+}
+
+.title {
+  @include h1;
+  font-family: $font-orchidea;
+}
+
+.imgScroll {
+
+}

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import logoCirceya from './images/logoCirceya.svg';
 import Block from './components/Block/Block';
 import HorizontalScroll from './components/HorizontalScroll/HorizontalScroll'
@@ -18,13 +18,13 @@ function App() {
         <div className="main-container">
           <div className='container'>
             <div className='block1'>
-              <Block text={text[0]} img1={img[0].imgUPLH} img2={img[0].imgUPRH}/>
+              <Block text={text[0]} text1={text[1]} img1={img[0].imgUPLH} img2={img[0].imgUPRH}/>
             </div>
             <div className='blockScroll'>
               <HorizontalScroll/>
             </div>
             <div className='block2'>
-              <Block text={text[0]} img3={img[0].imgDownLH} img4={img[0].imgDownRH}/>
+              <Block text={text[0]} text1={text[1]} img3={img[0].imgDownLH} img4={img[0].imgDownRH}/>
             </div>
             <footer>
       <div className="footer">

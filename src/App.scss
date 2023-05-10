@@ -1,8 +1,4 @@
-// @import './_vars.scss'; 
-// @import './data/';
-@import './style/fonts';
-
-
+@import './style/vars'; 
 
 .menu-header {
   position: fixed;
@@ -10,195 +6,33 @@
   width: 100%;
   background: linear-gradient(0deg, #464341 0%, #010101 100%);
   z-index: 1;
+  display: flex;
 }
 
-// выравнивание container относительного родительского main-container
+.logo {
+  width: 170px;
+  height: 32px;
+  margin: 35px 955px 31px 260px;
+}
+
+.mobile-number {
+  color: aliceblue;
+  margin-top: 38px;
+  color: #FFFFFF;
+}
+
 .main-container {
 	position: relative;
   top: 100px;
-  background: bisque;
 }
+
 .container {
 	position: absolute;
   margin-left: 260px;
   margin-right: 335px;
 	width: 1324px;
 	height: 100%;
-  background: aqua;
 }
-
-.logo {
-  position: absolute;
-  width: 170px;
-  height: 32px;
-  left: 305.27px;
-  top: 37px;
-  color: #FFFFFF;
-}
-
-.mobile-number {
-  position: absolute;
-  left: 1431px;
-  top: 38px;
-  font-family: 'Manrope';
-  font-size: 24px;
-  line-height: 33px; // перевести в проценты
-  color: #FFFFFF;
-}
-
-
-
-
-
-// шаблонный селектор
-// %block-title {
-//   position: absolute;
-//   width: 1253px;
-//   height: 60px;
-//   font-family: 'Orchidea Pro';
-//   font-size: 48px;
-//   line-height: 130%;
-//   display: flex;
-//   align-items: center;
-//   text-transform: uppercase;
-//   color: #141414;
-// }
-// .title-block {
-//   @extend %block-title;
-//   left: 261px;
-//   top: 301px;
-// }
-
-// // шаблон селектора
-// %img-julia {
-//   position: absolute;
-//   width: 860px;
-//   height: 480px;
- 
-//   background: #C4C4C4;
-// }
-// .logo-julia {
-//   @extend %img-julia;
-//   top: 484px;
-// }
-
-// // шаблонный селектор
-// %block-title-text {
-//   position: absolute;
-//   width: 600px;
-//   height: 160px;
-//   font-family: 'Orchidea Pro';
-//   font-size: 48px;
-//   line-height: 110%;
-// /* or 53px */
-//   display: flex;
-//   align-items: center;
-//   color: #141414;
-// }
-
-// .title-text {
-//   @extend %block-title-text;
-//   left: 985px;
-//   top: 556px;
-// }
-
-// %block-text {
-//   position: absolute;
-//   width: 600px;
-//   height: 150px;
-//   font-family: 'Manrope';
-//   font-size: 18px;
-//   line-height: 130%;
-// /* or 23px */
-//   display: flex;
-//   align-items: center;
-//   color: #141414;
-// }
-
-// .text {
-//   @extend %block-text;
-//   left: 985px;
-//   top: 741px;
-// }
-
-// .title-text2 {
-//   @extend %block-title-text;
-//   left: 261px;
-//   top: 1090px;
-// }
-
-// .text2 {
-//   @extend %block-text;
-//   left: 261px;
-//   top: 1275px;
-// }
-
-// %img-taisiia {
-//   position: absolute;
-//   width: 599px;
-//   height: 411px;
-//   left: 985px;
-//   background: #C4C4C4;
-// }
-
-// .logo-taisiia {
-//   @extend %img-taisiia;
-//   top: 1063px;
-// }
-
-// .title-block2 {
-//   @extend %block-title;
-//   left: 261px;
-//   top: 1634px;
-// }
-
-// .logo-jasmin {
-//   position: absolute;
-//   width: 320px;
-//   height: 488.89px;
-//   left: 261px;
-//   top: 1817px;
-//   background: #C4C4C4;
-// }
-
-// .title-block3 {
-//   @extend %block-title;
-//   left: 261px;
-//   top: 2466px;
-// }
-
-// .logo-julia2 {
-//   @extend %img-julia;
-//   left: 0px;
-//   top: 2646px;
-// }
-
-// .title-text3 {
-//   @extend %block-title-text;
-//   left: 985px;
-//   top: 2718px;
-// }
-// .text3{
-//   @extend %block-text;
-//   left: 985px;
-//   top: 2903px;
-// }
-
-// .title-text4 {
-//   @extend %block-title-text;
-//   left: 261px;
-//   top: 3253px;
-// }
-// .text4{
-//   @extend %block-text;
-//   left: 261px;
-//   top: 3438px;
-// }
-
-// .logo-taisiia2 {
-//   @extend %img-taisiia;
-//   top: 3226px;
-// }
 
 .footer {
   margin-top: 160px;
@@ -209,7 +43,7 @@
 }
 
 .logo-footer {
-  font-family: 'Roboto';
+  font-family: $font-roboto;
   padding-top: 166px;
   font-size: 14px;
   line-height: 16px; // перевести в проценты
