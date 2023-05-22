@@ -1,70 +1,48 @@
 @import '../../style/vars';
 
-.container {
+.title {
+  padding-top: 300px;
+  @include h1;
+  font-family: $font-orchidea;
 }
 
-.block {
+.content {
  display: flex;
  flex-wrap: wrap;
 }
 
-.title {
-    margin-top: 200px;
-    @include h1;
-    font-family: $font-orchidea;
-  }
-
-.imgLH {
+.content__imgTop {
   @include imageLH;
-  
-  
 }
 
-.blockRH {
+.content__text {
   width: 600px;
   margin-top: 207px;
 }
 
-.paragraphHeadingRH {
+.content__textTitle {
   font-size: 48px;
   line-height: 110%;
   margin-bottom: 25px;
 }
 
-.paragraphRH1 {
+.content__textItem1 {
   font-size: 18px;
   line-height: 130%;
   
 }
 
-.paragraphRH2 {
+.content__textItem2 {
   font-size: 18px;
   line-height: 130%;
   padding-top: 5px;
 }
 
-.blockLH {
+.content__imgBottom {
   margin-right: 123px;
   width: 600px;
 }
 
-.paragraphHeadingLH {
-  font-size: 48px;
-  line-height: 110%;
-  margin-bottom: 25px;
-}
-
-.paragraphLH1 {
-  font-size: 18px;
-  line-height: 130%;
-}
-
-.paragraphLH2 {
-  font-size: 18px;
-  padding-top: 5px;
-  line-height: 130%;
-}
-
-.imgRH {
+.portfolio__imgBottom {
 
 }

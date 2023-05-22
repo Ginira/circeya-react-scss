@@ -1,52 +1,43 @@
 @import './style/vars'; 
 
-.menu-header {
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.header {
   position: fixed;
   height: 100px;
   width: 100%;
   background: linear-gradient(0deg, #464341 0%, #010101 100%);
   z-index: 1;
-  display: flex;
 }
 
 .logo {
   width: 170px;
   height: 32px;
-  margin: 35px 955px 31px 260px;
 }
 
-.mobile-number {
-  color: aliceblue;
-  margin-top: 38px;
+.header__phone {
   color: #FFFFFF;
 }
 
-.main-container {
-	position: relative;
-  top: 100px;
-}
-
 .container {
-	position: absolute;
-  margin-left: 260px;
-  margin-right: 335px;
-	width: 1324px;
-	height: 100%;
+  max-width: 1324px;
+  margin: 0 auto;
 }
 
 .footer {
   margin-top: 160px;
-  margin-left: -260px;
-  margin-right: -335px;
   height: 200px;
   background: #141414;
 }
 
-.logo-footer {
+.logo__footer {
   font-family: $font-roboto;
   padding-top: 166px;
   font-size: 14px;
-  line-height: 16px; // перевести в проценты
   text-align: center;
   color: white; 
 }
