@@ -2,10 +2,19 @@
 
 .slider {
   margin-top: 163px;
+  margin-bottom: 158px;
 }
 
-.title {
+.slider__title {
   @include h1;
   font-family: $font-orchidea;
 }
 
+.slider__items {
+  display: flex;
+  margin-left: 0;
+}
+
+.slider__item {
+  margin-right: 40px;
+}

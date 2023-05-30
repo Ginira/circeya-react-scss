@@ -7,17 +7,17 @@ import scroll6 from "../images/scroll/scroll6.jpg";
 import scroll7 from "../images/scroll/scroll7.jpg";
 import scroll8 from "../images/scroll/scroll8.jpg";
 import scroll9 from "../images/scroll/scroll9.jpg";
-import imgUPLH from "../images/left1.jpg";
-import imgDownLH from "../images/left2.jpg";
-import imgUPRH from "../images/right1.jpg";
-import imgDownRH from "../images/right2.jpg";
+import img1 from "../images/left1.jpg";
+import img2 from "../images/right1.jpg";
+import img3 from "../images/left2.jpg";
+import img4 from "../images/right2.jpg";
 
 const img = [
   {
-    imgUPLH: imgUPLH,
-    imgDownLH: imgDownLH,
-    imgUPRH: imgUPRH,
-    imgDownRH: imgDownRH
+    img1: img1,
+    img2: img2,
+    img3: img3,
+    img4: img4
     
   }, 
   {

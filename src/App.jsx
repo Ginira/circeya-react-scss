@@ -18,17 +18,17 @@ function App() {
           </div>
         </div>
       </header>
-      <main>
+      <main className='main'>
         <div className="portfolio">
           <div className="container">
             <div className="portfolio__top">
-              <Block text={text[0]} text1={text[1]} img1={img[0].imgUPLH} img2={img[0].imgUPRH}/>
+              <Block text={text[0]} text1={text[1]} img1={img[0].img1} img2={img[0].img2}/>
             </div>
             <div className="portfolio__scroll">
-              <HorizontalScroll/>
+              <HorizontalScroll scroll={img[1]}/>
             </div>
             <div className="portfolio__bottom">
-              <Block text={text[0]} text1={text[1]} img3={img[0].imgDownLH} img4={img[0].imgDownRH}/>
+              <Block text={text[0]} text1={text[1]} img3={img[0].img3} img4={img[0].img4}/>
             </div>
      
           </div>

@@ -1,36 +1,59 @@
 @import './style/vars'; 
-
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 38px;
-}
-
 .header {
   position: fixed;
   height: 100px;
   width: 100%;
   background: linear-gradient(0deg, #464341 0%, #010101 100%);
   z-index: 1;
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    height: 60px;
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    margin-top: 21px;
+  }
 }
 
 .logo {
   width: 170px;
   height: 32px;
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    width: 94.44px;
+    height: 17.78px;
+  }
 }
 
 .header__phone {
   color: #FFFFFF;
+  @media screen and (min-width: 220px) and (max-width: 540px){
+  
+  }
+}
+
+.main {
+  padding-top: 200px;
 }
 
 .container {
   max-width: 1324px;
   margin: 0 auto;
+ 
+
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    max-width: 335px;
+    margin: 0 auto;
+  }
 }
 
 .footer {
   margin-top: 160px;
   height: 200px;
+  width: 100%;
   background: #141414;
 }
 
@@ -38,6 +61,7 @@
   font-family: $font-roboto;
   padding-top: 166px;
   font-size: 14px;
+  line-height: 100%;
   text-align: center;
   color: white; 
 }

@@ -1,9 +1,9 @@
 @import '../../style/vars';
 
 .title {
-  padding-top: 300px;
   @include h1;
   font-family: $font-orchidea;
+  // margin-top: 140px;
 }
 
 .content {
@@ -17,32 +17,46 @@
 
 .content__text {
   width: 600px;
-  margin-top: 207px;
+  margin-top: 74px;
+
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    // padding: 40px 20px 56px;
+    width: 500px;
+  }
 }
 
 .content__textTitle {
   font-size: 48px;
   line-height: 110%;
   margin-bottom: 25px;
+  font-family: $font-orchidea;
+
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    font-size: 24px;
+  }
 }
 
 .content__textItem1 {
   font-size: 18px;
   line-height: 130%;
-  
+  $font-manrope: 'Manrope';
+
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    font-size: 14px;
+  }
 }
 
 .content__textItem2 {
   font-size: 18px;
   line-height: 130%;
-  padding-top: 5px;
+  $font-manrope: 'Manrope';
+
+  @media screen and (min-width: 220px) and (max-width: 540px){
+    font-size: 14px;
+  }
 }
 
 .content__imgBottom {
   margin-right: 123px;
   width: 600px;
-}
-
-.portfolio__imgBottom {
-
 }
